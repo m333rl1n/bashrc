@@ -5,3 +5,10 @@ function vtamper () {
     httpx -sc -silent -cl -method -title -x all -u $URL "$@";
   done
 }
+
+# aliases
+alias l="ls -ltrha"
+
+# ENV
+export USER_AGENT="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+export EDITOR="vim"
